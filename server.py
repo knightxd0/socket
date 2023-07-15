@@ -3,7 +3,7 @@ import threading
 
 HEADER = 64
 PORT = 50
-SERVER = socket.gethostbyname(socket.gethostname())
+SERVER = "172.20.208.1" #socket.gethostbyname(socket.gethostname()) ใช้ IP ในเครื่อง
 ADDR = (SERVER, PORT)
 FORMAT = 'utf-8'
 DISCONNECTION_MESSAGE = "!DISCONNECT"
